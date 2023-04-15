@@ -85,14 +85,14 @@ export default function Home({ products, featured, faq, about_leather }) {
           <div className="text">Hello world</div>
         </div>
       )} */}
-
-      <FeaturedProduct product={featured.data[0]} />
+      {console.log(featured)}
+      {featured.data ? <FeaturedProduct product={featured.data[0]} /> : ""}
 
       {/* {user?<p>loogedIn</p>:<p>logged out</p>} */}
-      <ProductsGrid products={products} />
-      <DynamicDesc title={'About Leather'} content={about_leather} />
+      {/* <ProductsGrid products={products} /> */}
+      {/* <DynamicDesc title={"About Leather"} content={about_leather} /> */}
       {/* {console.log(faq)} */}
-      <DynamicDesc title={'FAQ'} content={faq} />
+      {/* <DynamicDesc title={"FAQ"} content={faq} /> */}
     </div>
   );
 }
@@ -111,28 +111,30 @@ export async function getStaticProps() {
   );
   const featured = await featured_res.json();
 
-    //fetching faq section contents
-    const faq_res = await fetch(
-      `${API_URL}/api/faq?populate[0]=faq_questions`
-    );
-    let faq = await faq_res.json();
-    faq= faq.data?.attributes?.faq_questions.data;
+  //fetching faq section contents
+  const faq_res = await fetch(`${API_URL}/api/faq?populate[0]=faq_questions`);
+  let faq_json = await faq_res.json();
+  let faq = null;
+  if (faq_json?.data?.attributes?.faq_questions?.data) {
+    faq = faq_json.data.attributes.faq_questions.data;
+  }
 
-    //fetching about leather section contents
-    // const about_leather_res = await fetch(
-    //   `${API_URL}/api/about-leather`
-    // );
-    // console.log(about_leather_res);
-    // let about_leather = await about_leather_res.json();
-    // about_leather = about_leather.data?.attributes.content;
+  //fetching about leather section contents
+  // const about_leather_res = await fetch(
+  //   `${API_URL}/api/about-leather`
+  // );
+  // console.log(about_leather_res);
+  // let about_leather = await about_leather_res.json();
+  // about_leather = about_leather.data?.attributes.content;
 
-    //fetching about leather section contents
-    const about_leather_res = await fetch(
-      `${API_URL}/api/about-leather`
-    );
-    // console.log(about_leather_res);
-    let about_leather = await about_leather_res.json();
-    about_leather = about_leather.data?.attributes.content;
+  //fetching about leather section contents
+  const about_leather_res = await fetch(`${API_URL}/api/about-leather`);
+  // console.log(about_leather_res);
+  let about_leather_json = await about_leather_res.json();
+  let about_leather = null;
+  if (about_leather_json?.data?.attributes?.content) {
+    about_leather = about_leather_json.data.attributes.content;
+  }
 
   // const session = await getSession({ req });
 
