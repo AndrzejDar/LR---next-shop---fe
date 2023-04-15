@@ -1,0 +1,36 @@
+.cartQuantity{
+    display: flex;
+    flex-direction: row;
+
+
+
+    .box{
+        width: 35px;
+        height: 35px;
+        background-color: var(--gray-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        svg{
+            fill: var(--white-color);
+        }
+    }
+
+    .box_center{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            font-weight: 700;
+            font-size: larger;
+            color: var(--accent-color);
+        }
+    }
+
+
+}

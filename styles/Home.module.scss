@@ -1,0 +1,25 @@
+.container{
+ width: 100%;
+
+.product{
+  padding: 24px;
+  font-size: large;
+
+  .product__Row{
+    display: flex;
+    
+    .product__ColImg{
+      max-width: 100px;
+      width: 100px;
+      padding: 10px;
+      img{
+        width: 80px;
+        font-size: 10px;
+      }
+    }
+    .product__Col{
+      flex: 1;
+    }
+  }
+}
+}
