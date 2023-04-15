@@ -11,12 +11,11 @@ const Register = () => {
   const router = useRouter();
 
   useEffect(() => {
-    console.log(user);
     if (user) {
-      console.log("redirecting");
+      // console.log("redirecting");
       router.push("/");
     }
-  }, [user]);
+  }, [user, router]);
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
