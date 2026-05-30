@@ -18,7 +18,7 @@ const AddToCart = ({ quantity, product, id }) => {
       cover_image: product.cover_image.data.attributes,
       // thumbnail: product.images.data[0].attributes,
       variation: product.variation,
-      meta_descryption: product.meta_descryption
+      meta_description: product.meta_description
     };
 
     addItemToCart(item);

@@ -27,7 +27,7 @@ const CartItem = ({ item, style }) => {
           <div className={style.price}>${item.price}</div>
         </div>
         <div className={style.record}>{item.variation}</div>
-        <div className={style.record}>{item.meta_descryption}</div>
+        <div className={style.record}>{item.meta_description}</div>
         <div className={style.record}>
           <div className={style.quantity}>
             {/* <CartQuantity count={item.quantity} setCount={''} /> */}

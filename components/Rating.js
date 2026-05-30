@@ -22,7 +22,7 @@ const Rating = ({ rating, reviews }) => {
         if (el === "i") return <StarIcon key={id} />;
         if (el === "h") return <StarHalfIcon key={id} />;
       })}
-      <span>{reviews > 12 ? reviews : "12"} rewievs</span>
+      <span>{reviews > 12 ? reviews : "12"} reviews</span>
     </div>
   );
 };

@@ -24,8 +24,8 @@ const Product = ({ product, id }) => {
     <div>
       <Head>
         {product.meta_title && <title>{product.meta_title}</title>}
-        {product.meta_descryption && (
-          <meta name="descryption" content={product.meta_descryption} />
+        {product.meta_description && (
+          <meta name="description" content={product.meta_description} />
         )}
       </Head>
       <div className={style.container}>
@@ -104,8 +104,8 @@ const Product = ({ product, id }) => {
                 <span>Add to Compare</span>
               </div>
             </div>
-            <div className={style.descryption}>
-              <ReactMarkdown escapeHTML={false}>{product.short_descryption}</ReactMarkdown>
+            <div className={style.description}>
+              <ReactMarkdown escapeHTML={false}>{product.short_description}</ReactMarkdown>
             </div>
             <div className={style.tags}>
               {product.tags && <Tags tags={product.tags.data} />}
@@ -113,8 +113,8 @@ const Product = ({ product, id }) => {
             <div className={style.footer_actions}></div>
           </div>
         </div>
-        <DynamicDesc title={"DESCRYPTION"} content={product.descryption} />
-        <DynamicDesc title={"FAQ"} content={product.short_descryption} />
+        <DynamicDesc title={"DESCRIPTION"} content={product.description} />
+        <DynamicDesc title={"FAQ"} content={product.short_description} />
         <DynamicDesc title={"CUSTOMER REVIEWS"}>reviews component</DynamicDesc>
 
         <p>{product.content}</p>

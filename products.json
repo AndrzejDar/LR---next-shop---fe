@@ -10,9 +10,9 @@
         "variation": "Standard",
         "rating": 4.7,
         "meta_title": "Heritage Leather Wallet | Leather Realm",
-        "meta_descryption": "Handcrafted Italian leather wallet with six card slots, billfold compartment, and ID window.",
-        "short_descryption": "Handcrafted Italian leather. Six card slots, billfold compartment, ID window. Ages beautifully with use.",
-        "descryption": "Made from full-grain Italian vegetable-tanned leather sourced from a family tannery in Tuscany. Hand-stitched edges, brass rivets, and a soft cotton inner lining. Every piece develops a unique patina over time.",
+        "meta_description": "Handcrafted Italian leather wallet with six card slots, billfold compartment, and ID window.",
+        "short_description": "Handcrafted Italian leather. Six card slots, billfold compartment, ID window. Ages beautifully with use.",
+        "description": "Made from full-grain Italian vegetable-tanned leather sourced from a family tannery in Tuscany. Hand-stitched edges, brass rivets, and a soft cotton inner lining. Every piece develops a unique patina over time.",
         "content": "Full-grain Italian leather, hand-stitched.",
         "images": {
           "data": [
@@ -42,9 +42,9 @@
         "variation": "Medium",
         "rating": 4.8,
         "meta_title": "Artisan Messenger Bag | Leather Realm",
-        "meta_descryption": "Full-grain leather messenger bag with brass hardware. Fits a 15-inch laptop.",
-        "short_descryption": "Full-grain leather messenger. Fits a 15-inch laptop, padded inner sleeve, brass buckles, adjustable shoulder strap.",
-        "descryption": "Vegetable-tanned full-grain leather, finished by hand. Solid brass hardware, two interior pockets, magnetic flap closure. Designed to outlast the laptop it carries.",
+        "meta_description": "Full-grain leather messenger bag with brass hardware. Fits a 15-inch laptop.",
+        "short_description": "Full-grain leather messenger. Fits a 15-inch laptop, padded inner sleeve, brass buckles, adjustable shoulder strap.",
+        "description": "Vegetable-tanned full-grain leather, finished by hand. Solid brass hardware, two interior pockets, magnetic flap closure. Designed to outlast the laptop it carries.",
         "content": "Premium full-grain leather messenger bag.",
         "images": {
           "data": [
@@ -73,9 +73,9 @@
         "variation": "32 inch",
         "rating": 4.5,
         "meta_title": "Classic Leather Belt | Leather Realm",
-        "meta_descryption": "Single-piece full-grain leather belt with solid brass buckle.",
-        "short_descryption": "Single-piece full-grain leather. Solid brass buckle. Cut to length. Ages into a deep, rich patina.",
-        "descryption": "Cut from a single hide, no laminate, no filler. Edges burnished by hand. The buckle is solid brass with no plating. Designed to be the last belt you buy.",
+        "meta_description": "Single-piece full-grain leather belt with solid brass buckle.",
+        "short_description": "Single-piece full-grain leather. Solid brass buckle. Cut to length. Ages into a deep, rich patina.",
+        "description": "Cut from a single hide, no laminate, no filler. Edges burnished by hand. The buckle is solid brass with no plating. Designed to be the last belt you buy.",
         "content": "Single-piece full-grain leather belt.",
         "images": {
           "data": [
@@ -103,9 +103,9 @@
         "variation": "Medium",
         "rating": 4.6,
         "meta_title": "Driving Gloves | Leather Realm",
-        "meta_descryption": "Soft lambskin driving gloves with knuckle ventilation and elastic wrist.",
-        "short_descryption": "Soft lambskin. Knuckle ventilation, elastic wrist, exposed knuckle holes. Made to feel like a second skin.",
-        "descryption": "Hand-cut lambskin uppers with goatskin palm grip panels. Stitched in a single afternoon by one craftsman. Sized European medium.",
+        "meta_description": "Soft lambskin driving gloves with knuckle ventilation and elastic wrist.",
+        "short_description": "Soft lambskin. Knuckle ventilation, elastic wrist, exposed knuckle holes. Made to feel like a second skin.",
+        "description": "Hand-cut lambskin uppers with goatskin palm grip panels. Stitched in a single afternoon by one craftsman. Sized European medium.",
         "content": "Lambskin driving gloves with goatskin grip.",
         "images": {
           "data": [

@@ -41,7 +41,7 @@ const Register = () => {
     <div>
       <Head>
         <title>Register</title>
-        <meta name="descryption" content={"descryption"} />
+        <meta name="description" content={"description"} />
       </Head>
       {!user && (
         <>
