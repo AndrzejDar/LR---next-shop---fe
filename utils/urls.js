@@ -1,23 +1,17 @@
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:1337'
-
 /**
- * Given an image return the Url
- * Works for local and deployed strapis
- * 
- * @param {any} image 
+ * Resolve an image attribute object to a renderable URL.
+ *
+ * Accepts shapes:
+ *   { url: "https://..." }      -> returned as-is
+ *   { url: "/img/foo.jpg" }     -> returned as-is (served from /public)
+ *   undefined / null            -> fallback to /missing.jpg
+ *
+ * @param {{ url?: string } | null | undefined} image
+ * @returns {string}
  */
-
-
-export const fromImageToUrl = (image) =>{
-
-    if(!image){
-        return "/vercel.svg"
-    }
-
-    if(image.url.indexOf("/") === 0){
-        return `${API_URL}${image.url}`
-    }
-
-    return image.url
-
-}
+export const fromImageToUrl = (image) => {
+  if (!image || !image.url) {
+    return "/missing.jpg";
+  }
+  return image.url;
+};

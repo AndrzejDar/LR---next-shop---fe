@@ -1,1 +1,128 @@
-{"data":[{"id":1,"attributes":{"name":"product 01 wielkie ciastkio","content":"Content of prod 1","meta_descryption":"meta descddddddddd","meta_title":"meta Title","price":10.11,"slug":"product-01-wielkie-ciastkio","createdAt":"2022-11-20T13:34:13.212Z","updatedAt":"2022-11-20T13:34:37.603Z","publishedAt":"2022-11-20T13:34:37.599Z"}},{"id":2,"attributes":{"name":"product 02 cos cos","content":"gfadg dcontent adf a gfdas","meta_descryption":"asdfasdfdas daf a asdff","meta_title":"adffff  adfff","price":12,"slug":"product-02-cos-cos","createdAt":"2022-11-20T13:35:16.875Z","updatedAt":"2022-11-20T13:35:18.693Z","publishedAt":"2022-11-20T13:35:18.690Z"}}],"meta":{"pagination":{"page":1,"pageSize":25,"pageCount":1,"total":2}}}
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Heritage Leather Wallet",
+        "slug": "heritage-leather-wallet",
+        "price": 89.00,
+        "original_price": 119.00,
+        "variation": "Standard",
+        "rating": 4.7,
+        "meta_title": "Heritage Leather Wallet | Leather Realm",
+        "meta_descryption": "Handcrafted Italian leather wallet with six card slots, billfold compartment, and ID window.",
+        "short_descryption": "Handcrafted Italian leather. Six card slots, billfold compartment, ID window. Ages beautifully with use.",
+        "descryption": "Made from full-grain Italian vegetable-tanned leather sourced from a family tannery in Tuscany. Hand-stitched edges, brass rivets, and a soft cotton inner lining. Every piece develops a unique patina over time.",
+        "content": "Full-grain Italian leather, hand-stitched.",
+        "images": {
+          "data": [
+            { "id": 1, "attributes": { "url": "https://picsum.photos/seed/wallet1/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/wallet1/200/200" } } } },
+            { "id": 2, "attributes": { "url": "https://picsum.photos/seed/wallet2/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/wallet2/200/200" } } } },
+            { "id": 3, "attributes": { "url": "https://picsum.photos/seed/wallet3/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/wallet3/200/200" } } } }
+          ]
+        },
+        "cover_image": {
+          "data": { "id": 1, "attributes": { "url": "https://picsum.photos/seed/wallet1/600/600", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/wallet1/200/200" } } } }
+        },
+        "tags": {
+          "data": [
+            { "id": 1, "attributes": { "name": "Wallet" } },
+            { "id": 2, "attributes": { "name": "Italian Leather" } },
+            { "id": 3, "attributes": { "name": "Hand-stitched" } }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "Artisan Messenger Bag",
+        "slug": "artisan-messenger-bag",
+        "price": 320.00,
+        "variation": "Medium",
+        "rating": 4.8,
+        "meta_title": "Artisan Messenger Bag | Leather Realm",
+        "meta_descryption": "Full-grain leather messenger bag with brass hardware. Fits a 15-inch laptop.",
+        "short_descryption": "Full-grain leather messenger. Fits a 15-inch laptop, padded inner sleeve, brass buckles, adjustable shoulder strap.",
+        "descryption": "Vegetable-tanned full-grain leather, finished by hand. Solid brass hardware, two interior pockets, magnetic flap closure. Designed to outlast the laptop it carries.",
+        "content": "Premium full-grain leather messenger bag.",
+        "images": {
+          "data": [
+            { "id": 4, "attributes": { "url": "https://picsum.photos/seed/bag1/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/bag1/200/200" } } } },
+            { "id": 5, "attributes": { "url": "https://picsum.photos/seed/bag2/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/bag2/200/200" } } } }
+          ]
+        },
+        "cover_image": {
+          "data": { "id": 4, "attributes": { "url": "https://picsum.photos/seed/bag1/600/600", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/bag1/200/200" } } } }
+        },
+        "tags": {
+          "data": [
+            { "id": 4, "attributes": { "name": "Bag" } },
+            { "id": 5, "attributes": { "name": "Full-grain" } },
+            { "id": 6, "attributes": { "name": "Laptop bag" } }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "Classic Leather Belt",
+        "slug": "classic-leather-belt",
+        "price": 75.00,
+        "variation": "32 inch",
+        "rating": 4.5,
+        "meta_title": "Classic Leather Belt | Leather Realm",
+        "meta_descryption": "Single-piece full-grain leather belt with solid brass buckle.",
+        "short_descryption": "Single-piece full-grain leather. Solid brass buckle. Cut to length. Ages into a deep, rich patina.",
+        "descryption": "Cut from a single hide, no laminate, no filler. Edges burnished by hand. The buckle is solid brass with no plating. Designed to be the last belt you buy.",
+        "content": "Single-piece full-grain leather belt.",
+        "images": {
+          "data": [
+            { "id": 6, "attributes": { "url": "https://picsum.photos/seed/belt1/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/belt1/200/200" } } } },
+            { "id": 7, "attributes": { "url": "https://picsum.photos/seed/belt2/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/belt2/200/200" } } } }
+          ]
+        },
+        "cover_image": {
+          "data": { "id": 6, "attributes": { "url": "https://picsum.photos/seed/belt1/600/600", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/belt1/200/200" } } } }
+        },
+        "tags": {
+          "data": [
+            { "id": 7, "attributes": { "name": "Belt" } },
+            { "id": 8, "attributes": { "name": "Full-grain" } }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Driving Gloves",
+        "slug": "driving-gloves",
+        "price": 145.00,
+        "variation": "Medium",
+        "rating": 4.6,
+        "meta_title": "Driving Gloves | Leather Realm",
+        "meta_descryption": "Soft lambskin driving gloves with knuckle ventilation and elastic wrist.",
+        "short_descryption": "Soft lambskin. Knuckle ventilation, elastic wrist, exposed knuckle holes. Made to feel like a second skin.",
+        "descryption": "Hand-cut lambskin uppers with goatskin palm grip panels. Stitched in a single afternoon by one craftsman. Sized European medium.",
+        "content": "Lambskin driving gloves with goatskin grip.",
+        "images": {
+          "data": [
+            { "id": 8, "attributes": { "url": "https://picsum.photos/seed/gloves1/800/800", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/gloves1/200/200" } } } }
+          ]
+        },
+        "cover_image": {
+          "data": { "id": 8, "attributes": { "url": "https://picsum.photos/seed/gloves1/600/600", "formats": { "thumbnail": { "url": "https://picsum.photos/seed/gloves1/200/200" } } } }
+        },
+        "tags": {
+          "data": [
+            { "id": 9, "attributes": { "name": "Gloves" } },
+            { "id": 10, "attributes": { "name": "Lambskin" } }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": { "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 4 } }
+}
